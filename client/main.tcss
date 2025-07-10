@@ -1,0 +1,36 @@
+Screen {
+    layout: vertical;
+    background: black;
+    color: white;
+}
+
+Header {
+    background: rgb(30, 30, 30);
+    color: cyan;
+    text-style: bold;
+    height: 3;
+}
+
+Footer {
+    background: rgb(30, 30, 30);
+    color: grey;
+    height: 1;
+}
+
+RichLog {
+    border: solid green;
+    height: 1fr;
+    padding: 1;
+    background: rgb(10, 10, 10);
+    color: white;
+}
+.user-msg {
+    padding: 1 1;
+    color: cyan;
+}
+
+.ai-msg {
+    padding: 1 1;
+    background: rgb(25,25,25);
+    border: round blue;
+}

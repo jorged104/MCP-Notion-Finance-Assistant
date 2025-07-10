@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# Test Files
+/files
+/src/files
+/client/files
+.env
+
+grafo.png
+
+**/node_modules/
+
+servers/finance/node_modules/
+
+servers/finance/node_modules
