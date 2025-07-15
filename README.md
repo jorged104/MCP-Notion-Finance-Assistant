@@ -18,6 +18,38 @@ It uses a client-server architecture: the client is built in Python (Textual UI,
 
 ---
 
+## 📸 Demo GIFs
+
+See MCP Finance Assistant in action! Below are sample use cases you can try, with animated GIFs for each scenario.
+
+---
+
+### 1. Uploading a Bank Statement
+
+This demo shows how to quickly load a new bank statement so transactions are automatically recognized and added.
+
+![Upload Bank Statement](assets/CargaEstadoDeCuenta.gif)
+
+---
+
+### 2. Asking About a Specific Expense Type
+
+Ask about your spending in a particular category, such as food, transportation, or utilities.
+
+**Example:**  
+_User types:_  
+
+How much did I spend on food last month?
+
+![Query Food Expense](assets/PreguntaSupermercado.gif)
+
+---
+
+### 3. Dashboard Notion
+
+You can visual dashboard
+![Dashboard](assets/Dashboard.gif) 
+
 ## Quick Start
 
 ### 1. Clone the repository
@@ -118,6 +150,19 @@ This project expects two databases in Notion:
 
 
 ---
+## 🤖 Using as an MCP Tool with Claude
+
+MCP Finance Assistant can also be used as an [MCP](https://docs.anthropic.com/en/docs/tools-and-mcp) tool, making it available to Anthropic's Claude models for advanced agent workflows.
+
+### How to Expose the Finance Tool as an MCP Server
+
+The server component (`servers/finance`) is fully compatible with the Model Context Protocol (MCP) and can be used as an external tool for Claude or other LLMs supporting MCP.
+
+#### 1. Configure Your `.env` (as above)
+
+Make sure your Notion API credentials and database IDs are set in the `.env` for `servers/finance`.
+
+
 
 ## FAQ
 
